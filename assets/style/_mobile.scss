@@ -1,0 +1,164 @@
+.mobile-nav {
+	position: relative;
+	width: 100%;
+	height: auto;
+	display: none;
+	background: $raha;
+
+	.nav-content {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		img {
+			width: 8.2rem;
+			background-image: url("../images/mob-log.jpg");
+		}
+
+		.donate-nav {
+			.donate-link {
+				border-bottom: 0.1em solid $white;
+				font-weight: 700;
+			}
+
+			.bars-btn {
+				background-color: $black;
+				border-radius: 0;
+
+				i.fa-bars {
+					color: $raha;
+				}
+
+				&:focus {
+					outline: none;
+				}
+			}
+
+			.offcanvas {
+				.offcanvas-header {
+					background-color: $raha;
+
+					.btn-close {
+						filter: 0;
+						color: $raha !important;
+						opacity: 1;
+					}
+
+					h5 {
+						background-color: $raha;
+						img {
+							padding: 0.4rem;
+							width: 2.5rem;
+						}
+					}
+				}
+
+				.offcanvas-body {
+					.accordion {
+						.accordion-item {
+							border-left: 0;
+							border-right: 0;
+							border-top: 0;
+							background-color: $raha !important;
+
+							button {
+								font-weight: 700;
+								background-color: $raha !important;
+							}
+
+							.accordion-button {
+								&.collapsed::after,
+								&::after {
+									background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+								}
+
+								&:focus {
+									font-weight: 700;
+									outline: none;
+									box-shadow: none;
+								}
+
+								&.accordion-button:not(.collapsed) {
+									color: $white;
+								}
+							}
+
+							ul {
+								li {
+									padding: 1.5rem 0;
+									border-bottom: 1px solid $white;
+
+									a {
+										font-weight: 700;
+										padding: 0 1rem;
+									}
+								}
+							}
+						}
+					}
+
+					.tabs {
+						border-radius: 8px;
+						background-color: $raha;
+
+						li {
+							padding: 0.4rem 0;
+							margin: 0.5rem 0;
+
+							a {
+								font-weight: 700;
+
+								& .fa-triangle-exclamation {
+									color: red;
+								}
+							}
+
+							.accordion {
+								.accordion-item {
+									border-left: 0;
+									border-right: 0;
+									border-top: 0;
+									background-color: $white !important;
+
+									button {
+										font-weight: 700;
+										background-color: $white !important;
+									}
+
+									.accordion-button {
+										&.collapsed::after,
+										&::after {
+											background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%2300b8a5'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+										}
+
+										&:focus {
+											font-weight: 700;
+											outline: none;
+											box-shadow: none;
+										}
+
+										&.accordion-button:not(.collapsed) {
+											color: $raha;
+										}
+									}
+
+									ul {
+										li {
+											padding: 1.5rem 0;
+											border-bottom: 1px solid $white;
+
+											a {
+												font-weight: 700;
+												padding: 0 1rem;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

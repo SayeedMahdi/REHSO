@@ -1,0 +1,134 @@
+.who-we-are {
+	.col-video-reasons {
+		display: inline-grid;
+		justify-content: center;
+
+		.video-reasons {
+			text-align: center;
+
+			.video-link {
+				background-color: $raha;
+				color: $black;
+				font-weight: 700;
+				line-height: 1;
+				font-size: 1rem;
+				padding: 1rem 2rem;
+			}
+
+			.reason-link {
+				display: block;
+				margin-top: 2.5rem;
+				font-weight: 700;
+				border-bottom: 1px solid $black;
+
+				&:hover {
+					background-color: $raha;
+				}
+			}
+		}
+	}
+}
+
+.what-us {
+	p {
+		font-weight: 300 !important;
+		font-size: 1.2em !important;
+
+		.linker {
+			padding: 0 0.2rem;
+			font-weight: 700;
+			border-bottom: 2px solid $raha;
+
+			&:hover {
+				background-color: $raha;
+				transition: 0.3s;
+			}
+		}
+	}
+}
+
+.galance {
+	ul {
+		li {
+			display: flex;
+			font-size: 1.3rem;
+			padding: 1rem 0rem;
+			border-bottom: 1px solid #d1d1d1;
+
+			&:nth-child(1) {
+				border-top: 1px solid #d1d1d1;
+			}
+
+			a {
+				display: block;
+				background: url(data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%228.529%22%20height%3D%2213%22%20viewBox%3D%220%200%208.529%2013%22%3E%3Cpath%20d%3D%22M2.03%200L0%202.03%204.47%206.5%200%2010.97%202.03%2013l6.5-6.5%22%2F%3E%3C%2Fsvg%3E)
+					96% center no-repeat;
+				margin-left: 0.5rem;
+				padding-right: 3rem;
+				width: 100%;
+				font-weight: 700;
+			}
+
+			.circle-icon {
+				color: $raha;
+				display: inline-block;
+				height: 1em;
+				margin: 0 0.35em;
+				-webkit-transform: translateY(15%);
+				transform: translateY(-8%);
+				width: 1em;
+			}
+		}
+	}
+}
+
+.stories {
+	.globe {
+		margin: 0;
+	}
+
+	ul {
+		li {
+			font-size: 1.3rem;
+			padding: 1rem 0rem;
+			border-bottom: 1px solid #d1d1d1;
+
+			&:nth-child(1) {
+				border-top: 1px solid #d1d1d1;
+			}
+
+			p {
+				margin: 0;
+				font-size: 1rem !important;
+			}
+
+			a {
+				font-weight: 700;
+			}
+		}
+	}
+}
+
+@media (max-width: 760px) {
+	.who-we-are {
+		.col-video-reasons {
+			.video-reasons {
+				margin-top: 1rem;
+
+				.video-link {
+					font-size: 1rem;
+					padding: 0.2rem 1rem;
+				}
+
+				.reason-link {
+					font-size: 0.7rem;
+					margin-top: 1.5rem;
+				}
+			}
+		}
+	}
+
+	#my-video {
+		width: 100%;
+	}
+}

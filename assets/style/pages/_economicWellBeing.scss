@@ -1,0 +1,32 @@
+.economicWellBeing {
+	&.our-goal {
+		.nav-link {
+			color: $black;
+			border: 1px solid $raha;
+			margin-top: 1rem;
+			font-size: 1.2rem;
+			font-weight: bold;
+		}
+
+		.nav-pills .nav-link.active,
+		.nav-pills .show > .nav-link {
+			background-color: $raha !important;
+			color: $white !important;
+		}
+
+		.tab-pane {
+			img {
+				border-radius: 10px;
+				margin: 1.6rem 1rem;
+			}
+
+			h3 {
+				margin: 3rem 1rem !important;
+			}
+
+			li {
+				list-style: inside;
+			}
+		}
+	}
+}

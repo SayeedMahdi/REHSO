@@ -1,0 +1,142 @@
+.career {
+	.res-para {
+		font-size: 1.15rem !important;
+	}
+
+	.search-job {
+		text-align: center;
+
+		.job-link {
+			border-bottom: 0.1em solid $raha;
+			font-weight: 700;
+			font-size: 1.25rem;
+			padding: 0.5rem 1rem;
+
+			&:hover {
+				background-color: $raha;
+				color: $white;
+				transition: 0.5s all;
+			}
+		}
+	}
+
+	.acoordian-p {
+		text-align: justify;
+		font-size: 1.25rem;
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 75.5rem;
+		width: calc(100% - 2rem);
+	}
+}
+
+.career-accordian {
+	margin: 2rem 0;
+
+	.accordion {
+		max-width: 80% !important;
+
+		.accordion-item {
+			border-left: 0;
+			border-right: 0;
+			border-bottom: 0;
+
+			.accordion-button {
+				&.collapsed::after,
+				&::after {
+					background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%2300b8a5'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+				}
+
+				font-size: 1.25rem;
+				font-weight: 700;
+				line-height: 1.4;
+				cursor: pointer;
+				background-color: $whyUsColor !important;
+
+				&:focus {
+					outline: 0;
+					box-shadow: none;
+				}
+
+				&.accordion-button:not(.collapsed) {
+					color: $raha;
+				}
+			}
+		}
+
+		.sub-doc {
+			i {
+				color: $raha;
+			}
+		}
+	}
+}
+
+.lasting-impact {
+	margin-bottom: 5rem;
+}
+
+.career-action {
+	.my-video-dimensions {
+		width: 100% !important;
+		height: 40rem !important;
+	}
+}
+
+@media (max-width: 1200px) and (min-width: 768px) {
+	.career-action {
+		margin-bottom: 2rem;
+	}
+}
+
+@media (max-width: 760px) {
+	.career {
+		.res-para {
+			font-size: 1.15rem !important;
+		}
+
+		.search-job {
+			.job-link {
+				font-size: 0.9rem !important;
+			}
+		}
+
+		.acoordian-p {
+			font-size: 1rem;
+		}
+	}
+
+	.career-accordian {
+		margin: 2rem 0;
+
+		.accordion {
+			max-width: 100% !important;
+
+			.accordion-item {
+				.accordion-button {
+					font-size: 0.9rem !important;
+				}
+
+				.sub-doc {
+					.sub-doc-content {
+						h3 {
+							font-size: 1.25rem !important;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.career-action {
+		margin-bottom: 2rem;
+
+		h2.globe {
+			margin-top: 0 !important;
+		}
+
+		.my-video-dimensions {
+			height: 25rem !important;
+		}
+	}
+}

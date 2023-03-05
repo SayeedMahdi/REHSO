@@ -1,0 +1,120 @@
+@import "./colors";
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #f6f6f6;
+
+	a {
+		text-decoration: none;
+		color: $black;
+		cursor: pointer;
+
+		&:hover {
+			color: $black;
+		}
+	}
+
+	ul {
+		list-style: none;
+	}
+
+	input {
+		// border-color: $raha !important;
+		&:focus {
+			outline: none !important;
+			box-shadow: none !important;
+		}
+	}
+
+	.body-overlay {
+		height: 100%;
+		overflow: hidden;
+		position: fixed;
+		width: 100%;
+	}
+
+	img {
+		height: auto;
+		max-width: 100%;
+	}
+
+	.card {
+		border: 0;
+	}
+
+	.fa-chevron-right,
+	.color {
+		color: $raha;
+	}
+
+	.no-transparent {
+		.fa-twitter,
+		.fa-telegram {
+			color: #1c9cea;
+		}
+
+		.fa-facebook-f {
+			color: #3b5998;
+		}
+
+		.fa-instagram {
+			color: #e4006f;
+		}
+
+		.fa-youtube {
+			color: rgb(241, 7, 7);
+		}
+	}
+
+	.fa-school {
+		color: #1c9cea;
+	}
+
+	.fa-children {
+		color: $raha;
+	}
+
+	.fa-envira {
+		color: rgb(6, 128, 6);
+	}
+	.btn-submit {
+		font-weight: bold;
+		background-color: $raha;
+
+		&:hover {
+			transition: 0.4s all;
+			// transform: scale(1.1);
+			background-color: #04c7b3;
+		}
+	}
+
+	.sm-ul {
+		padding: 0;
+		margin: 0 !important;
+		.sm-li {
+			font-size: 0.9rem !important;
+		}
+	}
+
+	@import "./navbar";
+	@import "./mobile";
+
+	@import "./pages/main";
+	@import "./pages/auth";
+	@import "./pages/careers";
+	@import "./pages/volunteer";
+	@import "./pages/who";
+	@import "./pages/imapctGlance";
+	@import "./pages/annualReport";
+	@import "./pages/search";
+	@import "./pages/volunteerForm";
+	@import "./pages/economicWellBeing";
+	// @import "./pages/circle-showing-progress-in-border";
+
+	@import "./media";
+}

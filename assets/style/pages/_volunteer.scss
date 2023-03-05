@@ -1,0 +1,123 @@
+.volunteer-opportunities {
+	.volunteer-select {
+		.form-select {
+			&:focus {
+				border-color: $raha;
+				outline: 0;
+				box-shadow: none;
+			}
+
+			option:hover {
+				background-color: $raha !important;
+			}
+		}
+
+		.card {
+			border: 0;
+
+			.card-body {
+				border-top: 3px solid $raha;
+			}
+		}
+	}
+}
+
+// .make-difference {
+// 	.img-content {
+// 		display: flex;
+
+// 		&:hover .card-body {
+// 			background-color: $raha;
+// 		}
+
+// 		.img-fl {
+// 			width: 28rem;
+// 			z-index: 1;
+
+// 			img {
+// 				max-width: 100%;
+// 				height: auto;
+// 			}
+// 		}
+
+// 		.card {
+// 			border: 0;
+
+// 			.card-body {
+// 				background-color: $white;
+// 				position: relative;
+// 				left: -3rem;
+// 				top: 1rem;
+// 				padding-left: 4rem;
+
+// 				p {
+// 					font-size: 1.25rem;
+// 					line-height: 1.75;
+// 					font-weight: 300;
+// 					letter-spacing: -0.01em;
+// 				}
+// 			}
+// 		}
+// 	}
+// }
+
+.volunteer-internship {
+	.col-md-8,
+	.col-sm-12,
+	.col-md-4 {
+		background-color: $black;
+		color: $white;
+	}
+
+	.title,
+	.para {
+		padding: 2rem;
+	}
+
+	.title {
+		font-size: 2.5rem;
+		font-weight: 700;
+	}
+
+	.para {
+		font-size: 1.3rem;
+		padding-top: 0;
+	}
+
+	button {
+		font-weight: 700;
+		line-height: 1;
+		font-size: 1rem;
+		padding: 1rem 2rem;
+		background-color: $raha;
+		margin-top: 2rem;
+	}
+}
+
+@media (max-width: 768px) {
+	.make-difference {
+		.card {
+			p {
+				font-size: 1.125rem;
+			}
+		}
+	}
+
+	.volunteer-internship {
+		margin-bottom: 2rem;
+
+		.title {
+			font-size: 2.25rem;
+		}
+
+		.para {
+			font-size: 1rem;
+		}
+
+		button {
+			display: flex;
+			margin: auto;
+			margin-bottom: 1rem;
+		}
+	}
+}

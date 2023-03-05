@@ -1,0 +1,81 @@
+.annoul-report {
+	width: 67%;
+	margin: 1rem auto;
+
+	p {
+		font-size: 1.25rem;
+		line-height: 1.75;
+		font-weight: 300;
+		letter-spacing: -0.01em;
+		max-width: 40.625rem;
+		overflow-wrap: break-word;
+	}
+
+	.download-link {
+		border-bottom: 2px solid $raha;
+
+		&:hover {
+			background-color: $raha;
+			transition: 0.3s;
+		}
+	}
+}
+
+.annoul-report-img {
+	border-left: 2px solid #d1d1d1;
+	float: right;
+	margin-bottom: 3rem;
+	margin-left: 1rem;
+	max-width: 18.125rem;
+	padding-bottom: 1rem;
+	padding-left: 2rem;
+	padding-top: 1rem;
+	width: 18.125rem;
+
+	a {
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 75.5rem;
+		width: calc(100% - 2rem);
+		display: block;
+
+		img {
+			height: auto;
+			max-width: 100%;
+		}
+
+		p {
+			padding: 0.3rem;
+
+			&:hover {
+				background-color: $raha;
+				transition: 0.3s;
+			}
+
+			span {
+				border-bottom: 2px solid $raha;
+			}
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.annoul-report {
+		width: 100%;
+
+		h5 {
+			font-size: 1.15rem;
+		}
+
+		p {
+			padding: 0.5rem 1rem;
+			font-size: 1.15rem;
+			text-align: justify;
+		}
+
+		.download-link {
+			font-size: 0.9rem;
+			text-align: center;
+		}
+	}
+}

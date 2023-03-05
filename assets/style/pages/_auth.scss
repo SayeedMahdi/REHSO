@@ -1,0 +1,22 @@
+.auth-form {
+	.auth-row {
+		min-height: 100vh !important;
+		display: flex !important;
+		justify-content: center !important;
+		align-items: center !important;
+	}
+
+	.card {
+		border: 0 !important;
+
+		.auth-img {
+			width: 20%;
+			height: auto;
+			margin: auto;
+		}
+
+		.auth-btn {
+			background-color: $raha;
+		}
+	}
+}

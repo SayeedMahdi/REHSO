@@ -1,0 +1,449 @@
+// @media (max-width: 1143px) {
+@media (max-width: 1200px) {
+	header {
+		background-image: none !important;
+		height: 100% !important;
+
+		nav {
+			&.l-navbar {
+				display: none !important;
+			}
+
+			&.mobile-nav {
+				display: block !important;
+			}
+		}
+
+		.bg-img.show {
+			display: block !important;
+		}
+
+		&:before {
+			background-image: none !important;
+		}
+
+		.socials {
+			display: none !important;
+		}
+	}
+
+	main {
+		h2.globe {
+			font-size: 1.55rem;
+		}
+
+		.emergency-response {
+			margin-top: -2rem;
+		}
+
+		.deliver {
+			.deliver-title {
+				p {
+					font-size: 1.1rem;
+				}
+			}
+
+			.deliver-slogan {
+				img {
+					width: 20%;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 1200px) and (min-width: 768px) {
+	.why-us {
+		.globe {
+			margin: 0;
+		}
+
+		.card {
+			.card-body {
+				padding: 1rem;
+				position: relative;
+				left: -3rem;
+				top: 2.7rem;
+				right: 0;
+
+				img {
+					width: 2rem;
+				}
+			}
+
+			blockquote {
+				padding: 0 1rem;
+				margin: 0;
+
+				.content {
+					font-size: 1.125rem;
+					margin-bottom: 0;
+				}
+
+				.person-role {
+					margin-top: 1rem;
+				}
+			}
+		}
+
+		.crises {
+			margin-top: 4rem;
+
+			.content {
+				.title {
+					font-size: 1.5rem;
+					margin-bottom: 0rem;
+				}
+
+				.subtitle {
+					font-size: 1rem;
+					margin: 1rem 0 2rem 0;
+				}
+			}
+
+			button {
+				font-size: 0.7rem;
+				padding: 1rem 0;
+				width: 100%;
+
+				i {
+					padding: 0;
+				}
+			}
+		}
+	}
+
+	.row-absloute {
+		margin-top: 8rem;
+	}
+
+	.impact {
+		.col-md-7,
+		.col-md-5 {
+			margin: 0;
+		}
+
+		.content {
+			padding: 2rem;
+
+			.title {
+				font-size: 1.75rem;
+			}
+
+			.subtitle {
+				font-size: 1.2rem;
+			}
+
+			button {
+				width: 100%;
+			}
+		}
+	}
+
+	.news-feature {
+		.info-card {
+			width: 20rem;
+			right: 0;
+			top: 7rem;
+			padding: 1.15rem !important;
+
+			a {
+				font-size: 1rem;
+			}
+
+			h3 {
+				font-size: 1rem;
+			}
+		}
+
+		.second {
+			figure:hover .link {
+				background-color: $raha;
+				transition: all 0.4s;
+			}
+
+			img {
+				height: auto;
+				max-width: 100%;
+			}
+
+			p {
+				font-size: 1rem;
+			}
+		}
+	}
+}
+
+@media (max-width: 760px) {
+	.slogan-items {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+
+		&.reverse {
+			flex-direction: row-reverse !important;
+		}
+
+		.slogan-item-content {
+			padding: 0 2rem;
+
+			h3 {
+				font-size: 1.55rem;
+				font-weight: 700;
+				letter-spacing: -0.03em;
+				line-height: 1.2;
+			}
+
+			p {
+				font-size: 1rem;
+				font-weight: 300;
+				line-height: 1.4;
+			}
+		}
+	}
+
+	.news-feature {
+		.row-mobile {
+			margin: 0 !important;
+		}
+
+		.info-card {
+			position: relative;
+			width: 90%;
+			right: -5%;
+			top: -2rem;
+			background-color: $raha;
+			padding: 0.5rem !important;
+			padding-bottom: 1.5rem !important;
+
+			p {
+				font-size: 1rem;
+			}
+
+			h3 {
+				font-size: 1.75rem;
+			}
+		}
+
+		.second {
+			h3 {
+				font-size: 1.25rem;
+			}
+
+			.link {
+				font-size: 0.8rem;
+			}
+		}
+	}
+
+	.impact {
+		.col-md-7,
+		.col-md-5 {
+			margin: 0;
+		}
+
+		.content {
+			padding: 2rem;
+
+			.title {
+				font-size: 1.75rem;
+			}
+
+			.subtitle {
+				font-size: 1.2rem;
+			}
+
+			button {
+				width: 100%;
+			}
+		}
+	}
+
+	.press-update {
+		.assign {
+			border-top: 0;
+			margin-bottom: 1rem;
+		}
+
+		.res-latest-link {
+			margin: 1rem auto;
+		}
+	}
+
+	.why-us {
+		.globe {
+			margin: 0;
+		}
+
+		.card {
+			.card-body {
+				padding: 1rem;
+				position: relative;
+				left: 1rem;
+				top: -2.7rem;
+				right: 6rem;
+				width: 90%;
+
+				.res-img {
+					display: none;
+				}
+			}
+
+			blockquote {
+				padding: 0;
+				margin: 0;
+
+				.content {
+					font-size: 1.125rem;
+					margin-bottom: 0;
+				}
+
+				.person-role {
+					margin-top: 1rem;
+				}
+			}
+		}
+
+		.crises {
+			margin-top: 0rem;
+
+			.content {
+				.title {
+					font-size: 1.5rem;
+					margin-bottom: 0rem;
+				}
+
+				.subtitle {
+					font-size: 1rem;
+					margin: 1rem 0 2rem 0;
+				}
+			}
+
+			button {
+				font-size: 0.7rem;
+				padding: 1rem 0;
+				width: 100%;
+
+				i {
+					padding: 0;
+				}
+			}
+		}
+	}
+
+	.refugees {
+		margin-top: 1rem;
+
+		.subtitle {
+			max-width: 100%;
+			font-size: 1rem;
+		}
+
+		.refugees-quote {
+			.slick-slide {
+				transform: scale(0.83);
+				transition: 0.5s;
+				filter: blur(0);
+			}
+
+			.tra {
+				img {
+					width: 2rem;
+					margin-right: 1rem;
+				}
+			}
+
+			.card {
+				border: 0;
+				margin: 0;
+				padding-bottom: 0;
+
+				.card-body {
+					.user-idea {
+						font-style: italic;
+						margin: 1.5rem;
+						margin-bottom: 1.5rem;
+						height: 35%;
+						font-size: 1.2rem;
+					}
+
+					.img-desc {
+						align-items: center !important;
+					}
+
+					.img-fluid {
+						margin-left: -5rem;
+
+						img {
+							width: 30rem;
+						}
+					}
+
+					.content {
+						p {
+							font-size: 1rem;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	footer {
+		.Our-efficiency {
+			.efficiency-item {
+				.graph-data {
+					.meta-data {
+						list-style: none;
+						font-size: 0.8rem;
+					}
+
+					.donate-link {
+						padding: 0.8rem 1.4rem;
+					}
+				}
+			}
+		}
+
+		.Join-our-mailing-list {
+			.title {
+				margin-top: 3rem;
+			}
+
+			p {
+				margin: 1rem 0;
+			}
+		}
+
+		.footer-layout {
+			margin-top: 3rem;
+			background-color: $black;
+
+			.layout {
+				span {
+					display: block;
+				}
+
+				.layout-link {
+					border-bottom: 1px solid $white;
+					font-size: 0.9rem;
+				}
+
+				.committee {
+					margin-top: 2rem;
+					border-top: 1px solid $white;
+					padding-top: 0 !important;
+				}
+
+				.text-end {
+					text-align: start !important;
+				}
+
+				.space-none {
+					margin: 0 !important;
+					padding-top: 0.9rem !important;
+				}
+			}
+		}
+	}
+}
